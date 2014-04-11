@@ -10,7 +10,7 @@ if(window.safari) {
 
 addKiller("YouTube", {
 
-"playlistFilter": /^UL|^PL|^SP|^AL/,
+"playlistFilter": /^UL|^PL|^SP|^AL|^FL/,
 
 "canKill": function(data) {
 	if(/^https?:\/\/s\.ytimg\.com\//.test(data.src)) return true;
